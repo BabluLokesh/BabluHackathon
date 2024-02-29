@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="Extentreports.extentreports"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="bookShelves.BookShelves">
+        <methods>
+          <include name="Scroll_Toheading"/>
+          <include name="open_Home_page"/>
+          <include name="price_selection"/>
+          <include name="Collect_Displayed_Namesofitems"/>
+          <include name="open_Living"/>
+          <include name="Select_Annivesary"/>
+          <include name="tear_down"/>
+          <include name="coustmize_giftcard"/>
+          <include name="Click_Excludeoutof_stock"/>
+          <include name="Collect_listeditems_ofSeatingandchairs"/>
+          <include name="Click_confirm"/>
+          <include name="click_confirm"/>
+          <include name="Select_recommended"/>
+          <include name="Select_SeatingandChairs"/>
+          <include name="Select_date"/>
+          <include name="go_to_giftcards"/>
+          <include name="Collect_Displayed_Pricesofitems"/>
+          <include name="open_category"/>
+          <include name="valid_details"/>
+          <include name="Refill_details"/>
+          <include name="fill_the_form"/>
+        </methods>
+      </class> <!-- bookShelves.BookShelves -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
